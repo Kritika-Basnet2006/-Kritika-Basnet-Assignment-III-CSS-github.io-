@@ -1,0 +1,101 @@
+header{
+	background-color: #124E66;
+	padding: 1px;
+	border-radius: 10px;
+
+}
+
+.nav-links{
+	list-style-type: none;
+	text-shadow: 2px 3px 3px red;
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+}
+.nav-links #topic{
+	text-decoration: underline;
+	text-align: center;
+}
+ #menu{
+	display: inline-flex;
+	gap: 250px;
+	padding-top: 10px;
+	padding-left: 50px;
+}
+
+#menu .active{
+	text-decoration: overline underline;
+	text-transform: uppercase;
+}
+.nav-links li a{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	padding: 10px;
+}
+.nav-links li a:hover{
+	color: pink;
+	transition: 3s;
+}
+.nav-links li img{
+	padding: 8px 0px 2px 0px;
+	width: 1420px;
+	height: 290px;
+}
+#up,#down{
+	background-color: turquoise;
+	box-sizing: border-box;
+	border-radius: 2px;
+	border: solid limegreen;
+	color: orangered;
+	font-style: bold;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+#up:hover,#down:hover{
+	color: white;
+	transition: 1s;
+}
+
+body{
+	background-color:lightyellow;	
+}
+h1{
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-shadow: 1px 2px 3px whitesmoke;
+	color: purple;
+	font-style: bold;
+	font-size: 40px;
+}
+h2{
+	text-align: center;
+	text-decoration: blink;
+	font-style: italic;
+	color: rebeccapurple;
+	font-size: 35px;
+}
+h3{
+	text-decoration: underline overline;
+	text-align: center;
+	font-size: 25px;
+	font-style: italic;
+	color: cadetblue;
+	line-height: 16px;
+}
+
+footer{
+	background-color: powderblue;
+	width: 100%;
+	padding: 1px;
+}
+footer a:hover{
+	color: white;
+	transition: 3s;
+}
+#activepage{
+	text-decoration: underline;
+}
